@@ -22,9 +22,11 @@ Favoured stats are the two highest percentages. Ties for second place are includ
 ## Install
 
 1. Install a userscript manager such as Tampermonkey or Violentmonkey in your browser.
-2. Create a new userscript and paste the contents of `steadfast-gym-guard.user.js` into it.
-3. Save and enable the script.
-4. Visit `https://www.torn.com/gym.php` to confirm the banner appears.
+2. Open the raw script URL in your browser to install directly:
+   `https://raw.githubusercontent.com/kristowyn/torn-steadfast-gym-guard/main/steadfast-gym-guard.user.js`
+3. Alternatively, create a new userscript and paste the contents of `steadfast-gym-guard.user.js` into it.
+4. Save and enable the script.
+5. Visit `https://www.torn.com/gym.php` to confirm the banner appears.
 
 ## Get a Limited API key
 
