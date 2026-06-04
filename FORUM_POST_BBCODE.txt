@@ -1,0 +1,29 @@
+[b]Torn Steadfast Gym Guard - Tampermonkey userscript[/b]
+
+Hi all,
+
+I've published a small Tampermonkey userscript called [b]Torn Steadfast Gym Guard[/b] that reads your faction
+Steadfast bonus from the Torn API and highlights the favoured gym stats on the gym page. It also intercepts TRAIN
+clicks for non-favoured stats and asks for confirmation so you don't accidentally train the wrong stat.
+
+[b]Features:[/b]
+[list]
+[*]Automatically reads [code]perks[/code] from the Torn API (Limited/Public key enough)
+[*]Highlights favoured stats and dims others
+[*]Confirm dialog when training a non-favoured stat
+[*]Caches data for 3 hours and refreshes automatically
+[/list]
+
+[b]Install:[/b]
+Open the raw script URL to install directly in Tampermonkey:
+[url]https://raw.githubusercontent.com/kristowyn/torn-steadfast-gym-guard/main/steadfast-gym-guard.user.js[/url]
+
+[b]Repo:[/b] [url]https://github.com/kristowyn/torn-steadfast-gym-guard[/url]
+
+[img]https://raw.githubusercontent.com/kristowyn/torn-steadfast-gym-guard/main/images/gym-screen.jpg[/img]
+
+[img]https://raw.githubusercontent.com/kristowyn/torn-steadfast-gym-guard/main/images/gym-warning.jpg[/img]
+
+Feedback welcome — especially if the React-based intercept stops working after page changes.
+
+— Kristowyn
