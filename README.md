@@ -44,6 +44,14 @@ Favoured stats are the two highest percentages. Ties for second place are includ
 - Click `refresh` in the banner to force a reload immediately.
 - Click `change key` to update or remove your API key.
 
+## Gallery
+
+Below are screenshots showing the script in action on the Torn gym page.
+
+![Gym overview with favoured stats highlighted](images/gym-screen.jpg)
+
+![Confirmation shown when training a non-favoured stat](images/gym-warning.jpg)
+
 ## Privacy
 
 - Your Torn API key is stored with `GM_setValue` in the userscript manager, not in page-readable `localStorage`.
