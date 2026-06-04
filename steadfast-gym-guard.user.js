@@ -273,7 +273,8 @@
             : '';
         return '<div class="sgg-title">Steadfast Gym Guard \u2014 train these</div>' +
             `<div class="sgg-body">${favTxt}</div>` +
-            `<div class="sgg-meta">updated ${when}${staleNote}` + links + '</div>';
+            // add non-breaking spaces to separate timestamp from action links
+            `<div class="sgg-meta">updated ${when}${staleNote}&nbsp;&nbsp;&nbsp;` + links + '</div>';
     }
 
     function getGymContainer() {
